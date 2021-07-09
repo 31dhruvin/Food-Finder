@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .text-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+  }
+  .text-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .text-join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  .text-btn{
+    font-size:18px;
+    text-decoration:none;
+    color: white;
+    text-shadow: 0.02em 0 lightgray, 0 0.02em lightgray;
+    border:black 3px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  
+.menu {
+    padding:30px ;
+    margin-top: 20px;
+    width: 75%;
+    float: left;
+    border-radius: 30px;
+  }
+
+  .card-wrapper {
+    margin-bottom: 30px;
+    
+  }
+  .card-image .card .card-img-wrapper {
+    height: 100%;
+  }
+  .card-image .card .card-body {
+    display: none;
+  }
+  .card-image-title-description .card .card-img-wrapper {
+    max-height: 100px;
+  }
+  .card-image-title-description .card {
+    position: relative;
+    min-height: 300px;
+  }
+  .card-image-title-description .card .card-body {
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-bottom: -70px;
+  }
+  .card-image-title-description .card:hover .card-body {
+    top: -70px;
+  }
+  .card-image-title-description .card .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  .card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 250px;
+    height: 100%;
+    border-radius: 20%;
+    width: 70%;
+    background-color: #000;
+    
+  }
+  .card:hover {
+    box-shadow: 30px 30px 31px -10px #131213;
+  }
+  .card-img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    overflow: hidden;
+  }
+  .card-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .card:hover .card-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .card-body .card-title {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+  }
+  .card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  
+  .card-body {
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: 1.5s ease;
+  }
+  .card-content {
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    font-size: 90%;
+    height: auto;
+    transition: 1.5s ease;
+  }
+  
+  .card:hover .card-body {
+    height: 80%;
+  }
+  .card:hover .card-content {
+    bottom: 0;
+  }
+  body {
+    margin: 0;
+    background-image: linear-gradient(to right, #ECE9E6 , #FFFFFF);
+    
+  }
+    
+    .main {
+      width: 25%;
+      height: auto;
+      float: left;
+      
+      color: black;
+      color: #f5deb3;
+      
+      padding: 10px;
+      
+    }
+    .d-flex{
+      display: flex;
+      align-items: center;
+      margin-top: 5%;
+      width:50%;
+      margin-left: 22%;
+      
+    }    
+    h1{
+      font-weight: bold;
+      color: #121212;
+      letter-spacing: 6px;
+      
+      text-shadow: 8px 8px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+    }
+    h3{
+      font-weight: bold;
+      color: #121212;
+      letter-spacing: 3px;
+      
+      text-shadow: 8px 8px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+    }
+    .text-para{ 
+      letter-spacing: 2px;
+      text-shadow: 8px 8px 5px rgba(0,0,0,0.3), 
+        0px -4px 10px rgba(255,255,255,0.3);
+
+    }
+    .navbar-brand{
+      
+      color: #0f0f0f;
+      text-shadow: -1px -1px 3px #020202, 
+          2px 2px 4px #1b1b1b;
+    }
+    
+.main-class{
+  background-image: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95));
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+    }
+    .first{
+      font-weight: bold;
+      
+      letter-spacing: 6px;
+      font-family: "Niconne", cursive;
+      color: #fff;
+      
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
+        5px -8px 15px rgb(0,0,0);
+    }
+    .first-p{
+      font-weight: bold;
+      font-family: "Niconne", cursive;
+      color: #fff;
+      
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
+        5px -8px 15px rgb(0, 0, 0);
+    }
+    .h1-join{
+      font-weight: bold;
+      
+      font-family: "Niconne", cursive;
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
+      5px -8px 15px rgb(255, 255, 255);
+      
+    }
+    .p-join{
+      font-weight: bold;
+      color: #fff;
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
+      5px -8px 15px rgb(0,0,0);
+      font-family: "Niconne", cursive;
+    }
+    .top-picks{
+      
+      font-weight: bold;
+      letter-spacing: 4px;
+      color: #fff;
+      font-family: "Niconne", cursive;
+      text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
+        5px -8px 15px rgb(0,0,0)      
+    }
+    
+    .join-btn:hover{
+      color: #fff;
+      background-color: #000;
+    }
+    .swipe{
+      padding: 5px 0;
+    }
