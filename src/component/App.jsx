@@ -4,6 +4,7 @@ import Navbar from './navbar';
 import "../css/style.css"
 
 import UserStore from '.././Store'
+import { HashRouter } from 'react-router-dom';
 
 
 function App() {
@@ -12,16 +13,13 @@ function App() {
       });
     return (
         <>
+        <HashRouter>
         <UserStore.Provider value={{ userData, setUserData }}>
             
             <Navbar />
-            <div>
-                <Router>
-
-                </Router>
-            </div>
+            
         </UserStore.Provider>
-        
+        </HashRouter>
           </>
     );
 }

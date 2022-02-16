@@ -1,5 +1,5 @@
 import React, { useContext,useState } from 'react';
-import {BrowserRouter as Router, Link,Switch,Route, useHistory, Redirect} from 'react-router-dom'
+import {HashRouter, Link,Switch,Route, useHistory, Redirect} from 'react-router-dom'
 import Main from './Main'
 import Contact from "./Contact"
 import About from "./About"
@@ -39,7 +39,7 @@ const Navbar=(props) => {
     });
   }
     return(
-      <Router>
+      <HashRouter>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <div className="navbar-brand" style={{fontSize:"30px"}}><strong>Food Finder</strong></div>
@@ -219,7 +219,7 @@ const Navbar=(props) => {
             </Route>
             
       </Switch>
-           </Router>
+           </HashRouter>
     )
 }
 export default Navbar;

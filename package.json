@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage":".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +17,7 @@
     "react-scripts": "4.0.3",
     "react-switch-case": "^1.5.1",
     "sweetalert": "^2.1.2",
+    "swiper": "^7.4.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
