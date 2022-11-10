@@ -19,8 +19,8 @@ const Main = (props) => {
                 <h5> <p className="first-p">Want to eat the best street food across your city?</p></h5><br />
                 <h5> <p className="first-p">Food finder will provide you a place to search for 1000's of the best street foods across your city.</p></h5>
                 <br /> 
-                <a href="#text-menu" className="btn btn-outline-light shadow-none  mr-2" aria-current="page" style={{marginRight:"20px"}}>Discover More</a>
-                <a href="#text-join" className="btn btn-outline-light shadow-none  ml-2 px-4" aria-current="page">Join Us</a>
+                <a href="#text-menu" className="btn btn-outline-light shadow-none  mr-2" aria-current="page" style={{marginRight:"20px",color:"black",border:"1px solid black"}}>Discover More</a>
+                <a href="#text-join" className="btn btn-outline-light shadow-none  ml-2 px-4" aria-current="page" style={{marginRight:"20px",color:"black",border:"1px solid black"}}>Join Us</a>
                 <br/>   
        {/*   <hr /> */} 
        </div>
@@ -44,7 +44,7 @@ const Main = (props) => {
            <h5><p className="first-p"  style={{letterSpacing:"4px"}}>Click Below and fill in the form to join us.</p></h5>
               <br />
               <br />          
-            <button className="btn btn-outline-light shadow-none" style={{width:"150px"}} type="submit" onClick={() => history.push('/addrestaurants')}>Join Us</button> 
+            <button className="btn btn-outline-light shadow-none" style={{width:"150px",color:"black",border:"1px solid black"}} type="submit" onClick={() => history.push('/addrestaurants')}>Join Us</button> 
               <br />
               <br />
               <br />

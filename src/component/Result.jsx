@@ -10,7 +10,7 @@ const Result=({find})=> {
           <h5 className="card-title"><strong>{find["name"]}</strong></h5>
           <h6 className="card-subtitle mb-2 text-muted"></h6>
           <p className="card-text" style={{marginTop:"50px"}}>{find["description"]}</p>
-          <button><a href={find["location"]} class="card-link" target="_blank" rel="noreferrer" style={{textDecoration:"none",color:"black",background:"white"}}>Get location</a></button>
+          <button className="btn btn-outline-light shadow-none" style={{width:"150px",color:"black",border:"1px solid black"}}><a href={find["location"]} class="card-link" target="_blank" rel="noreferrer" style={{color:"black"}} >Get location</a></button>
           </div> 
         </div>
       </div>

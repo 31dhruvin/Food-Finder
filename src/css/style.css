@@ -30,7 +30,7 @@
   .text-btn{
     font-size:18px;
     text-decoration:none;
-    color: white;
+    color: black;
     text-shadow: 0.02em 0 lightgray, 0 0.02em lightgray;
     border:black 3px solid;
     padding:10px 20px;
@@ -192,7 +192,7 @@
     }
     
 .main-class{
-  background-image: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95));
+  /* background-image: linear-gradient(rgba(16,29,44,.95), rgba(16,29,44,.95)); */
 	background-size: 400% 400%;
 	animation: gradient 30s ease infinite;
 }
@@ -213,18 +213,18 @@
       
       letter-spacing: 6px;
       font-family: "Niconne", cursive;
-      color: #fff;
+      color: rgb(62, 60, 60);
       
       text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
-        5px -8px 15px rgb(0,0,0);
+        5px -8px 15px rgb(160,149,149);
     }
     .first-p{
       font-weight: bold;
       font-family: "Niconne", cursive;
-      color: #fff;
+      color: rgb(44, 43, 43);
       
       text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
-        5px -8px 15px rgb(0, 0, 0);
+        5px -8px 15px rgb(160, 149, 149);
     }
     .h1-join{
       font-weight: bold;
@@ -236,23 +236,23 @@
     }
     .p-join{
       font-weight: bold;
-      color: #fff;
+      color: rgb(44, 43, 43);
       text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
-      5px -8px 15px rgb(0,0,0);
+      5px -8px 15px rgb(169,149,149);
       font-family: "Niconne", cursive;
     }
     .top-picks{
       
       font-weight: bold;
       letter-spacing: 4px;
-      color: #fff;
+      color: rgb(44, 43, 43);
       font-family: "Niconne", cursive;
       text-shadow: 5px 5px 5px rgba(0,0,0,0.3), 
-        5px -8px 15px rgb(0,0,0)      
+        5px -8px 15px rgb(169,149,149)      
     }
     
     .join-btn:hover{
-      color: #fff;
+      color: black;
       background-color: #000;
     }
     .swipe{
